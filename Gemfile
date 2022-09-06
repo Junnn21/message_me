@@ -29,7 +29,6 @@ gem "jbuilder"
 gem 'semantic-ui-sass'
 gem 'jquery-rails'
 # Use Redis adapter to run Action Cable in production
-gem "redis", "~> 4.0"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -75,4 +74,5 @@ end
 
 group :production do 
   gem 'pg'
+  gem "redis", "~> 4.0"
 end
